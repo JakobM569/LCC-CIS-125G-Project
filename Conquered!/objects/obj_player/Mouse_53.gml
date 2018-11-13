@@ -5,6 +5,16 @@
 /// @DnDArgument : "value" "1"
 if(can_shoot == 1)
 {
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 6D394749
+	/// @DnDParent : 21BE1384
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_player_cast"
+	/// @DnDSaveInfo : "spriteind" "925d633c-f19b-490f-a58c-c420b26fc530"
+	sprite_index = spr_player_cast;
+	image_index += 0;
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 66F87134

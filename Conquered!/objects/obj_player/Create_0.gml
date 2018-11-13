@@ -33,6 +33,6 @@ stun = 0;
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 7AC0965F
-/// @DnDArgument : "health" "30"
+/// @DnDArgument : "health" "1000"
 
-__dnd_health = real(30);
+__dnd_health = real(1000);

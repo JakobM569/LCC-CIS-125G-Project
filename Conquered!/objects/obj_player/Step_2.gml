@@ -15,9 +15,9 @@ if (!(l6DBDC96A_0 > 0))
 	/// @DnDHash : 3E939C24
 	/// @DnDParent : 6DBDC96A
 	/// @DnDArgument : "imageind" "1"
-	/// @DnDArgument : "spriteind" "spr_jump"
-	/// @DnDSaveInfo : "spriteind" "0eed6ace-0fbf-490f-a598-cbd6bc03f70f"
-	sprite_index = spr_jump;
+	/// @DnDArgument : "spriteind" "spr_player_jump"
+	/// @DnDSaveInfo : "spriteind" "e03b48dc-5e28-42a1-a7f8-ec90039ea3dc"
+	sprite_index = spr_player_jump;
 	image_index = 1;
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed

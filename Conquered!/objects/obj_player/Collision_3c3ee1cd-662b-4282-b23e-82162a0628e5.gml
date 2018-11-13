@@ -25,6 +25,7 @@ if(stun == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F8CA8EE
 	/// @DnDParent : 19CDF894
+	/// @DnDArgument : "steps" "5"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 30);
+	alarm_set(1, 5);
 }
