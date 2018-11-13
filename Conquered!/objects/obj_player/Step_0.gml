@@ -170,3 +170,30 @@ if ((l2A661AF7_0 > 0))
 /// @DnDArgument : "y_relative" "1"
 x += 0;
 y += vsp;
+
+/// @DnDAction : YoYo Games.Instance Variables.If_Health
+/// @DnDVersion : 1
+/// @DnDHash : 1B6768B0
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+if(__dnd_health == 0)
+{
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 628471AF
+	/// @DnDParent : 1B6768B0
+	/// @DnDArgument : "x" "50"
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "50"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "type" "5"
+	/// @DnDArgument : "where" "1"
+	/// @DnDArgument : "size" "1"
+	/// @DnDArgument : "color" "$FFCCCCCC"
+	effect_create_above(5, x + 50, y + 50, 1, $FFCCCCCC & $ffffff);
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 413E39CC
+	/// @DnDParent : 1B6768B0
+	instance_destroy();
+}
