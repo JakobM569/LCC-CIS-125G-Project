@@ -2,6 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0C817446
 /// @DnDArgument : "obj" "obj_player"
+/// @DnDSaveInfo : "obj" "e22915d9-2845-4a82-8355-61d77a9bd462"
 var l0C817446_0 = false;
 l0C817446_0 = instance_exists(obj_player);
 if(l0C817446_0)
@@ -67,31 +68,4 @@ if(l0C817446_0)
 			alarm_set(0, 15);
 		}
 	}
-}
-
-/// @DnDAction : YoYo Games.Instance Variables.If_Health
-/// @DnDVersion : 1
-/// @DnDHash : 4589F5D3
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-if(__dnd_health == 0)
-{
-	/// @DnDAction : YoYo Games.Particles.Effect
-	/// @DnDVersion : 1
-	/// @DnDHash : 39FDF1C1
-	/// @DnDParent : 4589F5D3
-	/// @DnDArgument : "x" "50"
-	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "50"
-	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "type" "5"
-	/// @DnDArgument : "where" "1"
-	/// @DnDArgument : "size" "1"
-	/// @DnDArgument : "color" "$FFCCCCCC"
-	effect_create_above(5, x + 50, y + 50, 1, $FFCCCCCC & $ffffff);
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 142AA398
-	/// @DnDParent : 4589F5D3
-	instance_destroy();
 }

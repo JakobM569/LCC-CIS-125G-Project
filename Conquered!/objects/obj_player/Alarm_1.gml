@@ -1,8 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1E3A463E
+/// @DnDInput : 2
 /// @DnDArgument : "var" "stun"
+/// @DnDArgument : "var_1" "sprite_lock"
 stun = 0;
+sprite_lock = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
