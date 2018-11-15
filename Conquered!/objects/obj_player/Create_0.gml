@@ -34,7 +34,7 @@ sprite_lock = 0;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
-/// @DnDHash : 7AC0965F
-/// @DnDArgument : "health" "30"
+/// @DnDHash : 4E680304
+/// @DnDArgument : "health" "100"
 
-__dnd_health = real(30);
+__dnd_health = real(100);
