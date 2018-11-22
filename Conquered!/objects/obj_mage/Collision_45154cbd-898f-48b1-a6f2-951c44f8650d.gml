@@ -16,9 +16,9 @@ if(stun == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 73D37FD3
 	/// @DnDParent : 6E4B3DC1
-	/// @DnDArgument : "spriteind" "spr_mage_hit"
-	/// @DnDSaveInfo : "spriteind" "961dd7c7-6f14-4786-a5d5-7a79fa8c2212"
-	sprite_index = spr_mage_hit;
+	/// @DnDArgument : "spriteind" "spr_red_enemy_hit"
+	/// @DnDSaveInfo : "spriteind" "2f19c064-9062-4096-ad9d-deab7aee7a69"
+	sprite_index = spr_red_enemy_hit;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
