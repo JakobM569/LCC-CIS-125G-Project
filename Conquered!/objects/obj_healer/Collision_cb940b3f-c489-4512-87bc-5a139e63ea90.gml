@@ -49,6 +49,7 @@ if(stun == 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 5205433E
 		/// @DnDParent : 4221136D
+		/// @DnDArgument : "x" "-10"
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "50"
 		/// @DnDArgument : "y_relative" "1"
@@ -56,19 +57,18 @@ if(stun == 0)
 		/// @DnDArgument : "where" "1"
 		/// @DnDArgument : "size" "1"
 		/// @DnDArgument : "color" "$FFCCCCCC"
-		effect_create_above(5, x + 0, y + 50, 1, $FFCCCCCC & $ffffff);
+		effect_create_above(5, x + -10, y + 50, 1, $FFCCCCCC & $ffffff);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 0C6F5B58
 		/// @DnDParent : 4221136D
-		/// @DnDArgument : "xpos" "-10"
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos" "20"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_heart_drop"
 		/// @DnDSaveInfo : "objectid" "646f3a58-eebb-4e7e-9342-0c8c4bd8143b"
-		instance_create_layer(x + -10, y + 20, "Instances", obj_heart_drop);
+		instance_create_layer(x + 0, y + 20, "Instances", obj_heart_drop);
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
